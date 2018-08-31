@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - International Trade Administration",
+	"description": "This is a repository of international trade administration APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/international-trade-administration.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://international-trade-administration.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "International Trade Administration",
+			"x-api-slug": "international-trade-administration",
+			"description": "The International Trade Administration (ITA) strengthens the competitiveness of U.S. industry, promotes trade and investment, and ensures fair trade through the rigorous enforcement of our trade laws and agreements. ITA works to improve the global busi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11180-international-trade-administration.jpg",
+			"humanURL": "http://trade.gov",
+			"baseURL": "https://api.trade.gov//",
+			"tags": "International Trade Administration",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/international-trade-administration/master/_listings/international-trade-administration/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "International Trade Administration",
+	"include": [
+		{
+			"name": "International Trade Administration",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/international-trade-administration/master/_listings/international-trade-administration/apis.yaml"
+		}
+	]
+}

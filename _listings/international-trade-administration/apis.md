@@ -9,38 +9,30 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11180-inte
 x-kinRank: "10"
 x-alexaRank: "81093"
 tags: International Trade Administration
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/international-trade-administration/master/_listings/international-trade-administration/apis.md
 specificationVersion: "0.14"
 apis:
-- name: ITA Offices And Centers ITA Offices and Centers Search
-  x-api-slug: ita-offices-and-centers
+- name: ITA Offices And Centers - ITA Offices and Centers Search
+  x-api-slug: ita-office-locationssearch-get
   description: This API provides contact and address information for all of ITAs domestic
     and international export assistance centers.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11180-international-trade-administration.jpg
   humanURL: http://trade.gov
-  baseURL: https://api.trade.gov////ita_office_locations/search
-  tags: Offices
+  baseURL: https://api.trade.gov//
+  tags: Federal Government, Federal Government, Stack Network, Marketplace, API Provider,
+    Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/international-trade-administration/master/_listings/international-trade-administration/ita-office-locationssearch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/international-trade-administration/master/_listings/international-trade-administration/ita-office-locationssearch-get-openapi.md
-- name: ITA Offices And Centers
-  x-api-slug: ita-offices-and-centers
-  description: The International Trade Administration (ITA) strengthens the competitiveness
-    of U.S. industry, promotes trade and investment, and ensures fair trade through
-    the rigorous enforcement of our trade laws and agreements. ITA works to improve
-    the global busi...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11180-international-trade-administration.jpg
-  humanURL: http://trade.gov
-  baseURL: https://api.trade.gov//
-  tags: International Trade Administration
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/international-trade-administration/master/_listings/international-trade-administration/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://instructure.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://international.trade.administration.stack.network
 - type: x-base
   url: http://api.trade.gov/
 - type: x-crunchbase
